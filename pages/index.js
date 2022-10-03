@@ -3,8 +3,8 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div className="h-screen bg-body">
-      <h2 className="text-center mt-5 text-4xl">UI DESIGNS</h2>
-      <div className="w-11/12 mt-5 m-auto ">
+      <h2 className="mt-5 text-4xl text-center">UI DESIGNS</h2>
+      <div className="w-11/12 m-auto mt-5 ">
         <ul className="list-disc">
           <ListLink href="/figma-pricing-card">
             Photoshop Pricing Card down
@@ -13,6 +13,7 @@ export default function Home() {
             Crypto Collection Card
           </ListLink>
           <ListLink href="/collections-list">Popular Collections Card</ListLink>
+          <ListLink href="/parameters-card">Parameters Card</ListLink>
         </ul>
       </div>
     </div>
