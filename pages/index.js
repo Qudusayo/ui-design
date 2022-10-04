@@ -15,6 +15,7 @@ export default function Home() {
           <ListLink href="/collections-list">Popular Collections Card</ListLink>
           <ListLink href="/parameters-card">Parameters Card</ListLink>
           <ListLink href="/sign-in-card">Sign-in Card</ListLink>
+          <ListLink href="/notification-card">Notification Card</ListLink>
         </ul>
       </div>
     </div>
